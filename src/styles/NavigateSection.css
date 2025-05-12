@@ -1,0 +1,82 @@
+.navigate-main {
+  padding-bottom: 10rem;
+  padding-right: 10px;
+}
+.navigate-main .navigate-row {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* gap: 10px; */
+}
+.navigate-main .navigate-row .navigate-img {
+  display: flex;
+  justify-content: center;
+  padding: 11px;
+}
+.navigate-main .navigate-row .navigate-img img {
+  width: 100%;
+  height: auto;
+}
+.navigate-main .navigate-row .navigate-content h1 {
+  font-size: 30px;
+  line-height: 39px;
+  margin-bottom: 1rem;
+}
+.navigate-main .navigate-row .navigate-content .para {
+  font-size: 17px;
+  line-height: 22px;
+}
+.navigate-main .navigate-row .navigate-content .navigate-content-main {
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+.navigate-main .navigate-row .navigate-content {
+  padding-left: 30px;
+}
+.navigate-main .navigate-row .navigate-content .navigate-content-list {
+  padding-left: 4rem;
+  padding-right: 5rem;
+}
+.navigate-main .navigate-row .navigate-content .navigate-content-list h4 {
+  font-size: 17px;
+  line-height: 22px;
+  max-width: 80%;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1250px) {
+  .mainbg
+    .navigate-main
+    .navigate-row
+    .navigate-content
+    .navigate-content-list {
+    padding-left: 4rem;
+    padding-right: 1rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .mainbg .navigate-main .navigate-row {
+    grid-template-columns: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .mainbg
+    .navigate-main
+    .navigate-row
+    .navigate-content
+    .navigate-content-list {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (max-width: 438px) {
+  .mainbg
+    .navigate-main
+    .navigate-row
+    .navigate-content
+    .navigate-content-list {
+    padding-left: 1rem;
+    padding-right: 0rem;
+  }
+}

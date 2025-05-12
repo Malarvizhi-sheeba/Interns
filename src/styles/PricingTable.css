@@ -1,0 +1,75 @@
+.pricing-table-section {
+  width: 100%;
+  overflow-x: auto;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.pricing-table-section::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Chrome, Safari, and Opera */
+}
+
+.pricing-table-section h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-size: 37px;
+  font-weight: 400;
+}
+
+.pricing-table-section table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  table-layout: fixed;
+}
+
+.pricing-table-section th,
+.pricing-table-section td {
+  padding: 27px 64px 23px 48px;
+  text-align: center;
+  /* border-bottom: 1px solid #ecf0f1; */
+  font-size: 17px;
+}
+
+.pricing-table-section th {
+  font-weight: 400;
+  width: 25%;
+}
+
+.pricing-table-section tbody tr:nth-child(odd) {
+  background-color: #f6f8fb;
+}
+
+.pricing-table-section .table-header-row th {
+  font-weight: bold;
+  /* color: #34495e; */
+  padding: 18px 20px;
+}
+
+/* .pricing-table-section td {
+  color: #333;
+} */
+
+.pricing-table-section th:last-child,
+.pricing-table-section td:last-child {
+  padding-right: 48px;
+}
+
+.pricing-table-section td:not(:first-child)::before {
+  display: inline-block;
+  margin-right: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.pricing-table-section td:contains("Coming Soon") {
+  font-style: italic;
+  /* color: #777; */
+}

@@ -1,0 +1,10 @@
+.plain {
+    margin-bottom: 3rem;
+  }
+  .plain ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 20px;
+    font-size: 17px;
+  }

@@ -1,0 +1,29 @@
+.pricing-section {
+  padding: 35px 19px 193px;
+}
+.pricing-section .pricing-banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pricing-section .pricing-banner-content h1 {
+  color: #fff;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 48px;
+}
+.pricing-section .pricing-banner-content h1 b {
+  color: #fff;
+}
+.pricing-section .pricing-banner-content p {
+  color: #ffff;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 48%;
+  font-weight: 400;
+  opacity: 0.6;
+  font-size: 21px;
+  text-align: center;
+}

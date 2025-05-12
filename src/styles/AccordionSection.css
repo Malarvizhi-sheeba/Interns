@@ -1,0 +1,31 @@
+/* accordian section starts */
+.accordian-main {
+  padding: 30px 0 10rem;
+}
+.accordian-main .accordian .accordian-head {
+  display: flex;
+}
+.accordian-main .accordian {
+  padding: 10px 30px;
+  background: #ffff;
+  margin-bottom: 5px;
+}
+.accordian-main .accordian .accordian-head img {
+  width: 16px;
+  height: 16px;
+}
+.accordian-main .accordian .accordian-head h2 {
+  font-size: 19px;
+}
+.accordian-main .accordian .accordian-head {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.accordian-main .accordian .accordian-body {
+  margin: 5px 5px 5px 45px;
+}
+.accordian-main .accordian .accordian-body p {
+  font-size: 15px;
+}
+/* accordian section ends */
