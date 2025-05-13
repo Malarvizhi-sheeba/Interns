@@ -1,4 +1,5 @@
 name: SonarCloud
+
 on:
   push:
     branches:
@@ -29,6 +30,8 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v2
         with:
-          projectBaseDir: .
+          args: >
+            -Dsonar.organization=malarvizhi-sheeba
+            -Dsonar.projectKey=Malarvizhi-sheeba_Interns
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
